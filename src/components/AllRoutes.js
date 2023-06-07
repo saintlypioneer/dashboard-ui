@@ -7,7 +7,7 @@ function AllRoutes(){
     const paths = [
         {
             path: "/",
-            element: <Navigate to="/dashboard" />
+            element: <Navigate to="/auth" />
         },
         {
             path: "/auth",
